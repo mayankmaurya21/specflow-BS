@@ -1,0 +1,328 @@
+﻿2021-03-08T23:22:09.2002360+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-03-08T23:22:09.2006856+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 3.6.2 in Framework netcore31 in x64 mode execution started
+2021-03-08T23:22:09.2006941+05:30;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-03-08T23:22:09.2040435+05:30;VSTestExecutionThread;Info;Current UserName: 'Mayank's PC', MachineName: 'DESKTOP-SSA0485'
+2021-03-08T23:22:09.4197507+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecflowBrowserStack.dll
+2021-03-08T23:22:09.4201406+05:30;VSTestExecutionThread;Info;Output folder configured to "C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\TestResults" (default)
+2021-03-08T23:22:09.4202845+05:30;VSTestExecutionThread;Info;Profile: SpecflowBrowserStack
+2021-03-08T23:22:09.4752634+05:30;VSTestExecutionThread;Info;Log file path: C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\TestResults\SpecflowBrowserStack_SpecflowBrowserStack_2021-03-08T232209.log
+2021-03-08T23:22:09.4828263+05:30;Thread#12;Info;Checking activation
+2021-03-08T23:22:09.4944397+05:30;Thread#12;Info;Activation check completed
+2021-03-08T23:22:09.4948623+05:30;Thread#12;Info;Starting test run
+2021-03-08T23:22:09.5444184+05:30;Thread#12;Info;Discovering target: Browser_Safari
+2021-03-08T23:22:09.5446468+05:30;Thread#12;Info;Discovering tests from assembly: C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecflowBrowserStack.dll
+2021-03-08T23:22:09.6787082+05:30;Thread#12;Info;Discovered tests from assembly: C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecflowBrowserStack.dll
+2021-03-08T23:22:09.6791626+05:30;Thread#12;Info;Discovering target: Browser_Chrome
+2021-03-08T23:22:09.6793622+05:30;Thread#12;Info;Discovering tests from assembly: C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecflowBrowserStack.dll
+2021-03-08T23:22:09.6999047+05:30;Thread#12;Info;Discovered tests from assembly: C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecflowBrowserStack.dll
+2021-03-08T23:22:09.7001426+05:30;Thread#12;Info;Discovering target: Browser_Firefox
+2021-03-08T23:22:09.7002400+05:30;Thread#12;Info;Discovering tests from assembly: C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecflowBrowserStack.dll
+2021-03-08T23:22:09.7105405+05:30;Thread#12;Info;Discovered tests from assembly: C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecflowBrowserStack.dll
+2021-03-08T23:22:09.7107904+05:30;Thread#12;Info;Discovering target: Browser_iPhone
+2021-03-08T23:22:09.7110386+05:30;Thread#12;Info;Discovering tests from assembly: C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecflowBrowserStack.dll
+2021-03-08T23:22:09.7221279+05:30;Thread#12;Info;Discovered tests from assembly: C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecflowBrowserStack.dll
+2021-03-08T23:22:09.7239322+05:30:Test Suite Dump
+2021-03-08T23:22:09.7262312+05:30:#0: SpecflowBrowserStack/SpecflowBrowserStack - 
+2021-03-08T23:22:09.7262617+05:30:#1: Browser_Safari - 
+2021-03-08T23:22:09.7262642+05:30:#20: Browser_Chrome - 
+2021-03-08T23:22:09.7262665+05:30:#39: Browser_Firefox - 
+2021-03-08T23:22:09.7262690+05:30:#58: Browser_iPhone - 
+2021-03-08T23:22:09.7262710+05:30:#2: SpecflowBrowserStack - 
+2021-03-08T23:22:09.7262735+05:30:#21: SpecflowBrowserStack - 
+2021-03-08T23:22:09.7262757+05:30:#40: SpecflowBrowserStack - 
+2021-03-08T23:22:09.7262771+05:30:#59: SpecflowBrowserStack - 
+2021-03-08T23:22:09.7262787+05:30:#22: GoogleSearch - 
+2021-03-08T23:22:09.7290649+05:30:#23: Goto Google - Target:Browser_Chrome/TestAssembly:SpecflowBrowserStack/Feature:GoogleSearch/Scenario:Goto+Google
+2021-03-08T23:22:09.7292325+05:30:End: Test Suite Dump
+2021-03-08T23:22:09.7539819+05:30:Thread#0:Scheduler: get next test for thread 0
+2021-03-08T23:22:09.7561390+05:30:Thread#:Scheduler: testitem #23 from normal test queue 
+2021-03-08T23:22:09.7562293+05:30:Thread#0:Scheduler: considering testitem #23 for thread 0
+2021-03-08T23:22:09.7644691+05:30:Thread#0:TestItem#23:testItemMatchesCurrentTestThread:NoMatch
+2021-03-08T23:22:09.7644860+05:30:Thread#0:TestItem#23:runsOnOneOtherThreadSpecific:True
+2021-03-08T23:22:09.7644881+05:30:Thread#0:TestItem#23:runsOnOneOtherThreadUnspecific:True
+2021-03-08T23:22:09.7647614+05:30:Thread#0:TestItem#23:Scheduler: postpoining testitem #23 for thread 0
+2021-03-08T23:22:09.7649549+05:30:Thread#:Scheduler: at the end of normal test queue
+2021-03-08T23:22:09.7649646+05:30:Thread#0:TestItem#23:Scheduler: nothing left after postpone for thread 0
+2021-03-08T23:22:09.7650768+05:30:Thread#0:Scheduler: No more tests for thread
+2021-03-08T23:22:09.7651133+05:30:Thread#2:Scheduler: get next test for thread 2
+2021-03-08T23:22:09.7651553+05:30:Thread#2:Scheduler: considering testitem #23 for thread 2
+2021-03-08T23:22:09.7653663+05:30:Thread#2:TestItem#23:testItemMatchesCurrentTestThread:NoMatch
+2021-03-08T23:22:09.7653738+05:30:Thread#2:TestItem#23:runsOnOneOtherThreadSpecific:True
+2021-03-08T23:22:09.7653760+05:30:Thread#2:TestItem#23:runsOnOneOtherThreadUnspecific:True
+2021-03-08T23:22:09.7653785+05:30:Thread#2:TestItem#23:Scheduler: postpoining testitem #23 for thread 2
+2021-03-08T23:22:09.7653819+05:30:Thread#:Scheduler: at the end of normal test queue
+2021-03-08T23:22:09.7653841+05:30:Thread#2:TestItem#23:Scheduler: nothing left after postpone for thread 2
+2021-03-08T23:22:09.7653860+05:30:Thread#2:Scheduler: No more tests for thread
+2021-03-08T23:22:09.7653986+05:30:Thread#1:Scheduler: get next test for thread 1
+2021-03-08T23:22:09.7654027+05:30:Thread#1:Scheduler: considering testitem #23 for thread 1
+2021-03-08T23:22:09.7655073+05:30:Thread#1:TestItem#23:testItemMatchesCurrentTestThread:Specific
+2021-03-08T23:22:09.7655138+05:30:Thread#1:TestItem#23:runsOnOneOtherThreadSpecific:False
+2021-03-08T23:22:09.7655156+05:30:Thread#1:TestItem#23:runsOnOneOtherThreadUnspecific:True
+2021-03-08T23:22:09.7655179+05:30:Thread#1:Scheduler: using testitem #23 for thread 1
+2021-03-08T23:22:09.7664072+05:30:Thread#1:Scheduler: Test #23 is scheduled for thread
+2021-03-08T23:22:09.7681357+05:30:Thread#1:Scheduler: with testItemExecutionIndex 0
+2021-03-08T23:22:09.7681690+05:30:Thread#3:Scheduler: get next test for thread 3
+2021-03-08T23:22:09.7681817+05:30:Thread#:Scheduler: at the end of normal test queue
+2021-03-08T23:22:09.7681840+05:30:Thread#3:Scheduler: enumerator for thread is at end
+2021-03-08T23:22:09.7681862+05:30:Thread#3:Scheduler: No more tests for thread
+2021-03-08T23:22:09.7682076+05:30:Thread#4:Scheduler: get next test for thread 4
+2021-03-08T23:22:09.7682145+05:30:Thread#:Scheduler: at the end of normal test queue
+2021-03-08T23:22:09.7682185+05:30:Thread#4:Scheduler: enumerator for thread is at end
+2021-03-08T23:22:09.7682202+05:30:Thread#4:Scheduler: No more tests for thread
+2021-03-08T23:22:09.7712515+05:30:Thread #1: creating new test thread executor for SpecflowBrowserStack, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Browser_Chrome)
+2021-03-08T23:22:09.7769857+05:30:Thread #1: Creating test assembly executor for execution model OutProc
+2021-03-08T23:22:09.7772680+05:30:Thread #1: Creating test assembly executor for execution model OutProc
+2021-03-08T23:22:09.7834722+05:30:Thread #1: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-03-08T23:22:09.7847730+05:30:starting Out Of Process Executor
+2021-03-08T23:22:09.7898884+05:30:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-03-08T23:22:09.7934845+05:30:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2021-03-08T23:22:09.7935089+05:30:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2021-03-08T23:22:09.7949117+05:30:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1'
+2021-03-08T23:22:09.7953529+05:30:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2021-03-08T23:22:09.7955167+05:30:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2021-03-08T23:22:09.7955765+05:30:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1'
+2021-03-08T23:22:09.7959317+05:30:TargetFramework: .NETCoreApp,Version=v3.1
+2021-03-08T23:22:09.7962164+05:30:Tfm: netcoreapp3.1
+2021-03-08T23:22:09.7962303+05:30:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-03-08T23:22:09.7962327+05:30:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2021-03-08T23:22:09.7964050+05:30:[AssemblyCache] Found file 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll' for assembly 'Microsoft.VisualStudio.Validation'
+2021-03-08T23:22:09.7993287+05:30:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Validation' to C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll
+2021-03-08T23:22:09.8004567+05:30:Starting callback TCP Rpc server
+2021-03-08T23:22:09.8262188+05:30:Asynchronously starting background TCP Rpc Server on port 32768
+2021-03-08T23:22:09.8262840+05:30:Started callback TCP Rpc server on port 32768
+2021-03-08T23:22:09.8262873+05:30:Starting logger TCP Rpc server
+2021-03-08T23:22:09.8303101+05:30:Asynchronously starting background TCP Rpc Server on port 32770
+2021-03-08T23:22:09.8303496+05:30:Started logger TCP Rpc server on port 32770
+2021-03-08T23:22:09.9407687+05:30:Executing test executor at 'dotnet' 'exec "C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_1.dll" --remoteRunnerPid 24936 --uniqueId "2021-03-08T232209" --outputFolder "C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\TestResults" --callbackPort 32768 --loggerPort 32770' in 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1'
+2021-03-08T23:22:09.9508386+05:30:Executor with PID 12180 has been started successfully.
+2021-03-08T23:22:09.9554670+05:30:Out of Process Executor 12180 started
+2021-03-08T23:22:09.9554879+05:30:Waiting for endpoint
+2021-03-08T23:22:10.4406661+05:30:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-03-08T23:22:10.4407815+05:30:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2021-03-08T23:22:10.4407888+05:30:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2021-03-08T23:22:10.4408009+05:30:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1'
+2021-03-08T23:22:10.4408040+05:30:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2021-03-08T23:22:10.4409173+05:30:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2021-03-08T23:22:10.4409980+05:30:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1'
+2021-03-08T23:22:10.4410108+05:30:TargetFramework: .NETCoreApp,Version=v3.1
+2021-03-08T23:22:10.4411047+05:30:Tfm: netcoreapp3.1
+2021-03-08T23:22:10.4411218+05:30:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-03-08T23:22:10.4411245+05:30:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2021-03-08T23:22:10.4412575+05:30:[AssemblyCache] Found file 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll' for assembly 'Microsoft.VisualStudio.Threading'
+2021-03-08T23:22:10.4459828+05:30:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Threading' to C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll
+2021-03-08T23:22:10.8012434+05:30:Remote executor port received: 32771
+2021-03-08T23:22:10.8018780+05:30:Creating executor TCP client on port 32771
+2021-03-08T23:22:10.8031447+05:30:Created executor TCP client on port 32771
+2021-03-08T23:22:10.8031670+05:30:Connecting to remote executor TCP server
+2021-03-08T23:22:10.8106825+05:30:Connected remote executor TCP server
+2021-03-08T23:22:10.8110934+05:30:trying to connect to Out of Process Executor the 1 attempt
+2021-03-08T23:22:10.8111075+05:30:Connection to Out of Process Executor established in the 1 attempt
+2021-03-08T23:22:11.0654833+05:30:2021-03-08T23:22:11.0639087+05:30:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecflowBrowserStack.dll on test thread #1
+2021-03-08T23:22:11.0737984+05:30:Endpoint 12180 started
+2021-03-08T23:22:11.1089245+05:30:2021-03-08T23:22:11.1076026+05:30:OutOfProcessTestAssemblyExecutor: running tests...
+2021-03-08T23:22:11.2899998+05:30:2021-03-08T23:22:11.2895150+05:30:Assembly resolving TechTalk.SpecFlow, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-03-08T23:22:11.2951181+05:30:2021-03-08T23:22:11.2946561+05:30:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2021-03-08T23:22:11.2991406+05:30:2021-03-08T23:22:11.2987180+05:30:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\Mayank's PC\.nuget\packages\specflow\3.6.23\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2021-03-08T23:22:11.4667492+05:30:2021-03-08T23:22:11.4653305+05:30:Thread#1:T:-> Loading plugin C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecflowBrowserStack.dll
+2021-03-08T23:22:11.4708891+05:30:2021-03-08T23:22:11.4692260+05:30:Thread#1:T:-> Missing [assembly:RuntimePlugin] attribute in SpecflowBrowserStack, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for details.
+2021-03-08T23:22:11.4731118+05:30:2021-03-08T23:22:11.4719317+05:30:Thread#1:T:-> Loading plugin C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-03-08T23:22:11.4802970+05:30:2021-03-08T23:22:11.4787961+05:30:Assembly resolving TechTalk.SpecFlow, Version=3.6.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-03-08T23:22:11.4875939+05:30:2021-03-08T23:22:11.4866109+05:30:Thread#1:T:-> Using default config
+2021-03-08T23:22:11.5021332+05:30:2021-03-08T23:22:11.5017344+05:30:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2021-03-08T23:22:11.5032420+05:30:2021-03-08T23:22:11.5023510+05:30:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2021-03-08T23:22:11.5043609+05:30:2021-03-08T23:22:11.5039604+05:30:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\Mayank's PC\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2021-03-08T23:22:11.5085084+05:30:2021-03-08T23:22:11.5081017+05:30:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2021-03-08T23:22:11.5090467+05:30:2021-03-08T23:22:11.5087786+05:30:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2021-03-08T23:22:11.5100339+05:30:2021-03-08T23:22:11.5096183+05:30:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\Mayank's PC\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2021-03-08T23:22:11.5257352+05:30:2021-03-08T23:22:11.5252155+05:30:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-03-08T23:22:11.5263524+05:30:2021-03-08T23:22:11.5260569+05:30:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2021-03-08T23:22:11.5275503+05:30:2021-03-08T23:22:11.5271314+05:30:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\Mayank's PC\.nuget\packages\microsoft.testplatform.objectmodel\16.5.0\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2021-03-08T23:22:11.5841199+05:30:2021-03-08T23:22:11.5833949+05:30:Assembly resolving Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27
+2021-03-08T23:22:11.5848553+05:30:2021-03-08T23:22:11.5844227+05:30:[AssemblyCache] Trying to resolve 'Utf8Json' from .deps.json file
+2021-03-08T23:22:11.5860441+05:30:2021-03-08T23:22:11.5855902+05:30:[AssemblyCache] Resolved 'Utf8Json' to 'C:\Users\Mayank's PC\.nuget\packages\utf8json\1.3.7\lib\netstandard2.0\Utf8Json.dll'
+2021-03-08T23:22:11.8627423+05:30:Thread#1: Test #23/0 is started on thread #1
+2021-03-08T23:22:11.9013930+05:30:2021-03-08T23:22:11.9006432+05:30:Thread#1:B:Given goto Google
+2021-03-08T23:22:11.9204778+05:30:2021-03-08T23:22:11.9201272+05:30:Assembly resolving Microsoft.Extensions.Configuration.Abstractions, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-03-08T23:22:11.9209264+05:30:2021-03-08T23:22:11.9206882+05:30:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.Abstractions' from .deps.json file
+2021-03-08T23:22:11.9220888+05:30:2021-03-08T23:22:11.9216288+05:30:[AssemblyCache] Resolved 'Microsoft.Extensions.Configuration.Abstractions' to 'C:\Users\Mayank's PC\.nuget\packages\microsoft.extensions.configuration.abstractions\3.1.0\lib\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll'
+2021-03-08T23:22:11.9262917+05:30:2021-03-08T23:22:11.9258617+05:30:Assembly resolving WebDriver, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null
+2021-03-08T23:22:11.9269227+05:30:2021-03-08T23:22:11.9265716+05:30:[AssemblyCache] Trying to resolve 'WebDriver' from .deps.json file
+2021-03-08T23:22:11.9279970+05:30:2021-03-08T23:22:11.9275593+05:30:[AssemblyCache] Resolved 'WebDriver' to 'C:\Users\Mayank's PC\.nuget\packages\selenium.webdriver\3.141.0\lib\netstandard2.0\WebDriver.dll'
+2021-03-08T23:22:11.9326662+05:30:2021-03-08T23:22:11.9321452+05:30:Assembly resolving BrowserStackLocal, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+2021-03-08T23:22:11.9333480+05:30:2021-03-08T23:22:11.9330035+05:30:[AssemblyCache] Trying to resolve 'BrowserStackLocal' from .deps.json file
+2021-03-08T23:22:11.9343590+05:30:2021-03-08T23:22:11.9339755+05:30:[AssemblyCache] Resolved 'BrowserStackLocal' to 'C:\Users\Mayank's PC\.nuget\packages\browserstacklocal\2.0.0\lib\netstandard2.0\BrowserStackLocal.dll'
+2021-03-08T23:22:11.9404414+05:30:2021-03-08T23:22:11.9399935+05:30:Assembly resolving Microsoft.Extensions.Configuration, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-03-08T23:22:11.9409995+05:30:2021-03-08T23:22:11.9406996+05:30:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration' from .deps.json file
+2021-03-08T23:22:11.9418615+05:30:2021-03-08T23:22:11.9415223+05:30:[AssemblyCache] Resolved 'Microsoft.Extensions.Configuration' to 'C:\Users\Mayank's PC\.nuget\packages\microsoft.extensions.configuration\3.1.0\lib\netcoreapp3.1\Microsoft.Extensions.Configuration.dll'
+2021-03-08T23:22:11.9463010+05:30:2021-03-08T23:22:11.9458917+05:30:Assembly resolving Microsoft.Extensions.Configuration.Json, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-03-08T23:22:11.9467310+05:30:2021-03-08T23:22:11.9465042+05:30:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.Json' from .deps.json file
+2021-03-08T23:22:11.9474320+05:30:2021-03-08T23:22:11.9471976+05:30:[AssemblyCache] Resolved 'Microsoft.Extensions.Configuration.Json' to 'C:\Users\Mayank's PC\.nuget\packages\microsoft.extensions.configuration.json\3.1.0\lib\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll'
+2021-03-08T23:22:11.9512956+05:30:2021-03-08T23:22:11.9509281+05:30:Assembly resolving Microsoft.Extensions.FileProviders.Abstractions, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-03-08T23:22:11.9516933+05:30:2021-03-08T23:22:11.9514967+05:30:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.FileProviders.Abstractions' from .deps.json file
+2021-03-08T23:22:11.9523281+05:30:2021-03-08T23:22:11.9521057+05:30:[AssemblyCache] Resolved 'Microsoft.Extensions.FileProviders.Abstractions' to 'C:\Users\Mayank's PC\.nuget\packages\microsoft.extensions.fileproviders.abstractions\3.1.0\lib\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll'
+2021-03-08T23:22:11.9569300+05:30:2021-03-08T23:22:11.9565382+05:30:Assembly resolving Microsoft.Extensions.Configuration.FileExtensions, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-03-08T23:22:11.9574488+05:30:2021-03-08T23:22:11.9571680+05:30:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Configuration.FileExtensions' from .deps.json file
+2021-03-08T23:22:11.9583270+05:30:2021-03-08T23:22:11.9579413+05:30:[AssemblyCache] Resolved 'Microsoft.Extensions.Configuration.FileExtensions' to 'C:\Users\Mayank's PC\.nuget\packages\microsoft.extensions.configuration.fileextensions\3.1.0\lib\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll'
+2021-03-08T23:22:11.9635270+05:30:2021-03-08T23:22:11.9630593+05:30:Assembly resolving Microsoft.Extensions.FileProviders.Physical, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-03-08T23:22:11.9641395+05:30:2021-03-08T23:22:11.9638433+05:30:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.FileProviders.Physical' from .deps.json file
+2021-03-08T23:22:11.9649802+05:30:2021-03-08T23:22:11.9646250+05:30:[AssemblyCache] Resolved 'Microsoft.Extensions.FileProviders.Physical' to 'C:\Users\Mayank's PC\.nuget\packages\microsoft.extensions.fileproviders.physical\3.1.0\lib\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll'
+2021-03-08T23:22:11.9695334+05:30:2021-03-08T23:22:11.9690585+05:30:Assembly resolving Microsoft.Extensions.Primitives, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-03-08T23:22:11.9718699+05:30:2021-03-08T23:22:11.9702971+05:30:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.Primitives' from .deps.json file
+2021-03-08T23:22:11.9727145+05:30:2021-03-08T23:22:11.9724613+05:30:[AssemblyCache] Resolved 'Microsoft.Extensions.Primitives' to 'C:\Users\Mayank's PC\.nuget\packages\microsoft.extensions.primitives\3.1.0\lib\netcoreapp3.1\Microsoft.Extensions.Primitives.dll'
+2021-03-08T23:22:12.0375827+05:30:2021-03-08T23:22:12.0371903+05:30:Thread#1:T:JzJJjes3cyzHaynTqJpe
+2021-03-08T23:22:14.4269975+05:30:2021-03-08T23:22:14.4247430+05:30:Thread#1:T:error: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL https://mayankmaurya4:JzJJjes3cyzHaynTqJpe@http//localhost:58909/wd/hub/session. The status of the exception was NameResolutionFailure, and the message was: No such host is known. No such host is known. (2.5s)
+2021-03-08T23:22:14.4305342+05:30:2021-03-08T23:22:14.4296526+05:30:Thread#1:B:Then title should be 'Google'
+2021-03-08T23:22:14.4362507+05:30:2021-03-08T23:22:14.4358224+05:30:Thread#1:T:skipped because of previous errors
+2021-03-08T23:22:14.4821736+05:30:Thread#1:TestItem#23:Scheduler: reschedule tests for testitem #23
+2021-03-08T23:22:14.4851604+05:30:Thread#1:Scheduler: get next test for thread 1
+2021-03-08T23:22:14.4851878+05:30:Thread#:Scheduler: at the end of normal test queue
+2021-03-08T23:22:14.4851899+05:30:Thread#1:Scheduler: enumerator for thread is at end
+2021-03-08T23:22:14.4851926+05:30:Thread#1:Scheduler: No more tests for thread
+2021-03-08T23:22:14.5907027+05:30:Thread#1: Test #23/0 is finished on thread #1 as Failed within 2.7261461 seconds
+2021-03-08T23:22:14.6020785+05:30:2021-03-08T23:22:14.6015434+05:30:Got Deinitialize Signal
+2021-03-08T23:22:14.6102153+05:30:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2021-03-08T23:22:14.6118010+05:30:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-03-08T23:22:14.6154561+05:30:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-03-08T23:22:14.6199356+05:30:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2021-03-08T23:22:14.6199859+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2021-03-08T23:22:14.6199995+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2021-03-08T23:22:14.6200104+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1'
+2021-03-08T23:22:14.6200180+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6201390+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6202248+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1'
+2021-03-08T23:22:14.6202396+05:30:TargetFramework: .NETCoreApp,Version=v3.1
+2021-03-08T23:22:14.6203163+05:30:Tfm: netcoreapp3.1
+2021-03-08T23:22:14.6203237+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-03-08T23:22:14.6203286+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6204323+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6205197+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-03-08T23:22:14.6344388+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9'
+2021-03-08T23:22:14.6344641+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6345824+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6346790+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9'
+2021-03-08T23:22:14.6350470+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9'
+2021-03-08T23:22:14.6350567+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6351607+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6352392+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9'
+2021-03-08T23:22:14.6355207+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9'
+2021-03-08T23:22:14.6355332+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6356544+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6357359+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9'
+2021-03-08T23:22:14.6360473+05:30:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2021-03-08T23:22:14.6360583+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2021-03-08T23:22:14.6360612+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2021-03-08T23:22:14.6360677+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1'
+2021-03-08T23:22:14.6360700+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6361804+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6362573+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1'
+2021-03-08T23:22:14.6362615+05:30:TargetFramework: .NETCoreApp,Version=v3.1
+2021-03-08T23:22:14.6362766+05:30:Tfm: netcoreapp3.1
+2021-03-08T23:22:14.6362811+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-03-08T23:22:14.6362831+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6363734+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6364521+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-03-08T23:22:14.6377607+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9'
+2021-03-08T23:22:14.6377807+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6378782+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6379613+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9'
+2021-03-08T23:22:14.6382727+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9'
+2021-03-08T23:22:14.6382821+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6383658+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6384404+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9'
+2021-03-08T23:22:14.6387188+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9'
+2021-03-08T23:22:14.6387285+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6388051+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6388800+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9'
+2021-03-08T23:22:14.6389941+05:30:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2021-03-08T23:22:14.6390028+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2021-03-08T23:22:14.6390115+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2021-03-08T23:22:14.6390220+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1'
+2021-03-08T23:22:14.6390247+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6391766+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6393218+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1'
+2021-03-08T23:22:14.6393319+05:30:TargetFramework: .NETCoreApp,Version=v3.1
+2021-03-08T23:22:14.6393474+05:30:Tfm: netcoreapp3.1
+2021-03-08T23:22:14.6393523+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-03-08T23:22:14.6393542+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6394586+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6395361+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-03-08T23:22:14.6404997+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9'
+2021-03-08T23:22:14.6405592+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6407123+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6408268+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9'
+2021-03-08T23:22:14.6412749+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9'
+2021-03-08T23:22:14.6412947+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6414084+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6415086+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9'
+2021-03-08T23:22:14.6420116+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9'
+2021-03-08T23:22:14.6420336+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6421374+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6422446+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9'
+2021-03-08T23:22:14.6423554+05:30:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2021-03-08T23:22:14.6423616+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2021-03-08T23:22:14.6423642+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2021-03-08T23:22:14.6423698+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1'
+2021-03-08T23:22:14.6423715+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6424669+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6425544+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1'
+2021-03-08T23:22:14.6425595+05:30:TargetFramework: .NETCoreApp,Version=v3.1
+2021-03-08T23:22:14.6425751+05:30:Tfm: netcoreapp3.1
+2021-03-08T23:22:14.6425797+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-03-08T23:22:14.6425812+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6426719+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6427425+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Mayank's PC\Documents\Specflow-web\demo-specflow-browserstack-main\SpecflowBrowserStack\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-03-08T23:22:14.6437419+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9'
+2021-03-08T23:22:14.6437955+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6439095+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6439772+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.9'
+2021-03-08T23:22:14.6442870+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9'
+2021-03-08T23:22:14.6442985+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6444182+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6445150+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.9'
+2021-03-08T23:22:14.6449152+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9'
+2021-03-08T23:22:14.6449276+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2021-03-08T23:22:14.6450211+05:30:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2021-03-08T23:22:14.6451053+05:30:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9'
+2021-03-08T23:22:14.6465468+05:30:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2021-03-08T23:22:14.6465752+05:30:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2021-03-08T23:22:14.6465812+05:30:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2021-03-08T23:22:14.6465863+05:30:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2021-03-08T23:22:14.6493185+05:30:Trying to cancel thread
+2021-03-08T23:22:14.6493312+05:30:Thread cancelled
+2021-03-08T23:22:14.6493323+05:30:Trying to cancel thread
+2021-03-08T23:22:14.6493334+05:30:Thread cancelled
+2021-03-08T23:22:14.6493341+05:30:Trying to cancel thread
+2021-03-08T23:22:14.6493348+05:30:Thread cancelled
+2021-03-08T23:22:14.6493360+05:30:Trying to cancel thread
+2021-03-08T23:22:14.6493375+05:30:Thread cancelled
+2021-03-08T23:22:14.6493383+05:30:Trying to cancel thread
+2021-03-08T23:22:14.6493391+05:30:Thread cancelled
+2021-03-08T23:22:14.6556567+05:30:Thread#-1:Scheduler: get next test for thread -1
+2021-03-08T23:22:14.6556773+05:30:Thread#:Scheduler: at the end of normal test queue
+2021-03-08T23:22:14.6556795+05:30:Thread#-1:Scheduler: enumerator for thread is at end
+2021-03-08T23:22:14.6578925+05:30;Thread#12;Info;test run finished
+2021-03-08T23:22:14.6581219+05:30;Thread#12;Info;publishing test results
+2021-03-08T23:22:14.6583212+05:30;Thread#12;Info;Not publishing results.
+2021-03-08T23:22:14.6584322+05:30;Thread#12;Info;test results published
+2021-03-08T23:22:14.6585090+05:30;Thread#12;Info;generating reports
+2021-03-08T23:22:14.8032200+05:30;Thread#12;Info;Starting external report generation process
+2021-03-08T23:22:16.0915042+05:30;Thread#12;Error;Could not generate test run result reports. An error occurred in the generator.
+2021-03-08T23:22:16.0925620+05:30;Thread#12;Error;External program returned exit code '-2'
+2021-03-08T23:22:16.0928779+05:30;Thread#12;Info;Failed generating reports
+2021-03-08T23:22:16.1047786+05:30:Total: 1
+2021-03-08T23:22:16.1068158+05:30:Succeeded: 0
+2021-03-08T23:22:16.1071864+05:30:Ignored: 0
+2021-03-08T23:22:16.1074845+05:30:Pending: 0
+2021-03-08T23:22:16.1074931+05:30:Skipped: 0
+2021-03-08T23:22:16.1077833+05:30:Failed: 1
+2021-03-08T23:22:16.1206501+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

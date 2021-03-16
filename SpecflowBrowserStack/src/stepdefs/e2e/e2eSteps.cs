@@ -1,0 +1,111 @@
+using TechTalk.SpecFlow;
+using SpecflowBrowserStack.Drivers;
+using OpenQA.Selenium;
+using Xunit;
+
+namespace SpecflowBrowserStack.Steps
+{
+	[Binding]
+	public class e2eSteps
+
+	{
+		private readonly WebDriver _driver;
+        private static bool results=true;
+
+        public e2eSteps(WebDriver driver)
+		{
+			_driver = driver;
+		}
+
+        [When(@"I type ""(.*)"" in username")]
+        public void WhenITypeInUsername(string username)
+        {
+            _driver.Current.FindElement(By.Id("react-select-2-input")).SendKeys(username + "\n");
+        }
+
+        [When(@"I type ""(.*)"" in password")]
+        public void WhenITypeInPassword(string password)
+        {
+            _driver.Current.FindElement(By.Id("react-select-3-input")).SendKeys(password + "\n");
+        }
+
+        [Then(@"I add two products to cart")]
+        public void ThenIAddTwoProductsToCart()
+        {
+            System.Threading.Thread.Sleep(4000);
+            _driver.Current.FindElement(By.XPath("(//div[text()='Add to cart'])[1]")).Click();
+            _driver.Current.FindElement(By.XPath("(//div[text()='Add to cart'])[1]")).Click();
+
+        }
+
+        [Then(@"I click on Buy Button")]
+        public void ThenIClickOnBuyButton()
+        {
+            
+            _driver.Current.FindElement(By.XPath("//div[text()='Checkout']")).Click();
+        }
+
+        [When(@"I type ""(.*)"" in firstNameInput input")]
+        public void WhenITypeInFirstNameInputInput(string firstName)
+        {
+            System.Threading.Thread.Sleep(4000);
+            _driver.Current.FindElement(By.Id("firstNameInput")).SendKeys(firstName);
+        }
+
+        [When(@"I type ""(.*)"" in lastNameInput input")]
+        public void WhenITypeInLastNameInputInput(string lastName)
+        {
+            _driver.Current.FindElement(By.Id("lastNameInput")).SendKeys(lastName);
+        }
+
+        [When(@"I type ""(.*)"" in addressLineInput input")]
+        public void WhenITypeInAddressLineInputInput(string address)
+        {
+            _driver.Current.FindElement(By.Id("addressLine1Input")).SendKeys(address);
+        }
+
+        [When(@"I type ""(.*)"" in provinceInput input")]
+        public void WhenITypeInProvinceInputInput(string province )
+        {
+            _driver.Current.FindElement(By.Id("provinceInput")).SendKeys(province);
+        }
+
+        [When(@"I type ""(.*)"" in postCodeInput input")]
+        public void WhenITypeInPostCodeInputInput(int postalCode)
+        {
+            _driver.Current.FindElement(By.Id("postCodeInput")).SendKeys(postalCode.ToString());
+        }
+
+
+        [Then(@"I click on Checkout Button")]
+        public void ThenIClickOnCheckoutButton()
+        { 
+          _driver.Current.FindElement(By.Id("checkout-shipping-continue")).Click();
+            System.Threading.Thread.Sleep(4000);
+            _driver.Current.FindElement(By.XPath("//button[text()='Continue Shopping »']")).Click();
+        }
+
+        [Then(@"I click on ""(.*)"" link")]
+        public void ThenIClickOnLink(string orders)
+        {
+            System.Threading.Thread.Sleep(4000);
+            _driver.Current.FindElement(By.Id("orders")).Click();
+        }
+
+        [Then(@"I should see elements in list")]
+        public void ThenIShouldSeeElementsInList()
+        {
+            System.Threading.Thread.Sleep(4000);
+            string orderPlaced = _driver.Current.FindElement(By.XPath("(//span[@class='a-color-secondary label' ])[1]")).Text;
+            bool result =FluentAssertions.CustomAssertionAttribute.Equals("Order placed", orderPlaced);
+            if (results)
+            {
+                ((IJavaScriptExecutor)_driver.Current).ExecuteScript("browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"passed\", \"reason\": \"Tests function Assertion Passed\"}}");
+            }
+            else
+            {
+                ((IJavaScriptExecutor)_driver.Current).ExecuteScript("browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"failed\", \"reason\": \"Tests function Assertion Failed\"}}");
+            }
+        }
+    }
+}

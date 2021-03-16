@@ -1,7 +1,6 @@
+@Single
 Feature: Login Feature
 
-
-@Single
   Scenario Outline: Login as <username>
     Given I navigate to website
     Then I click on Sign In link

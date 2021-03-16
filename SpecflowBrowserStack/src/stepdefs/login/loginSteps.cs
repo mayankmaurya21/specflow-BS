@@ -29,13 +29,12 @@ namespace SpecflowBrowserStack.Steps
 		public void ThenIClickOnSignInLink()
 		{
 			_driver.Current.FindElement(By.Id("signin")).Click();
-			System.Threading.Thread.Sleep(4000);
-
 		}
 
 		[When(@"I type '(.*)' in username")]
 		public void ITypeUsername(string username)
 		{
+			_driver.Wait.Until(ExpectedConditions.ElementExists(By.Id("react-select-2-input")));
 			_driver.Current.FindElement(By.Id("react-select-2-input")).SendKeys(username+ "\n");
 			
 		}
@@ -66,7 +65,7 @@ namespace SpecflowBrowserStack.Steps
 			}
 			else
 			{
-				System.Threading.Thread.Sleep(4000);
+				_driver.Wait.Until(ExpectedConditions.ElementExists(By.XPath("//span[@class='username']")));
 				string displayedUsername = _driver.Current.FindElement(By.XPath("//span[@class='username']")).Text;
 				result =FluentAssertions.CustomAssertionAttribute.Equals(username, displayedUsername);
 			}

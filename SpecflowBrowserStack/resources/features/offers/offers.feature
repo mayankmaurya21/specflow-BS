@@ -1,5 +1,6 @@
-Feature: Offers Feature
 @Mobile
+Feature: Offers Feature
+
   Scenario: Offers for mumbai geo-location
     Given I navigate to website on mobile.
     Then I click on Sign-In link

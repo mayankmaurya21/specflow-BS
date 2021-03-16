@@ -21,7 +21,7 @@ namespace SpecflowBrowserStack.Drivers
 		{
 			_browserSeleniumDriverFactory = browserSeleniumDriverFactory;
 			_currentWebDriverLazy = new Lazy<IWebDriver>(GetWebDriver);
-			
+			_waitLazy = new Lazy<WebDriverWait>(GetWebDriverWait);
 		}
 		public IWebDriver Current => _currentWebDriverLazy.Value;
 		public WebDriverWait Wait => _waitLazy.Value;

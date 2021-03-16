@@ -13,14 +13,12 @@ namespace SpecflowBrowserStack.Steps
 	[Binding]
 	public class productSteps
 	{
-		
 		private readonly WebDriver _driver;
         private static bool result=true;
       
         public productSteps(WebDriver driver)
 		{
 			_driver = driver;
-
         }
         
         [Given(@"I press the Apple Vendor Filter")]
@@ -30,10 +28,10 @@ namespace SpecflowBrowserStack.Steps
         }
 
         [Then(@"I should see (.*) items in the list")]
-        public void ThenIShouldSeeItemsInTheList(int p0)
+        public void ThenIShouldSeeItemsInTheList(int noOfproducts)
         { 
             string numberOfProducts = _driver.Current.FindElement(By.XPath("//small[@class='products-found']")).Text;
-            FluentAssertions.CustomAssertionAttribute.Equals("9 Product(s) found.", numberOfProducts);
+            FluentAssertions.CustomAssertionAttribute.Equals(noOfproducts+" Product(s) found.", numberOfProducts);
         }
 
         [Given(@"I order by lowest to highest")]
@@ -59,6 +57,5 @@ namespace SpecflowBrowserStack.Steps
                 ((IJavaScriptExecutor)_driver.Current).ExecuteScript("browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"failed\", \"reason\": \"Tests function Assertion Failed\"}}");
             }
         }
-       
     }
 }

@@ -19,13 +19,15 @@ namespace SpecflowBrowserStack.Resources.Features.Offers
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.6.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("Offers Feature", SourceFile="resources\\features\\offers\\offers.feature", SourceLine=0)]
+    [TechTalk.SpecRun.FeatureAttribute("Offers Feature", new string[] {
+            "Mobile"}, SourceFile="resources\\features\\offers\\offers.feature", SourceLine=1)]
     public partial class OffersFeatureFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-        private string[] _featureTags = ((string[])(null));
+        private string[] _featureTags = new string[] {
+                "Mobile"};
         
 #line 1 "offers.feature"
 #line hidden
@@ -34,7 +36,8 @@ namespace SpecflowBrowserStack.Resources.Features.Offers
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "resources/features/offers", "Offers Feature", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "resources/features/offers", "Offers Feature", null, ProgrammingLanguage.CSharp, new string[] {
+                        "Mobile"});
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -70,15 +73,13 @@ namespace SpecflowBrowserStack.Resources.Features.Offers
             testRunner.CollectScenarioErrors();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Offers for mumbai geo-location", new string[] {
-                "Mobile"}, SourceLine=2)]
+        [TechTalk.SpecRun.ScenarioAttribute("Offers for mumbai geo-location", SourceLine=3)]
         public virtual void OffersForMumbaiGeo_Location()
         {
-            string[] tagsOfScenario = new string[] {
-                    "Mobile"};
+            string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Offers for mumbai geo-location", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 3
+#line 4
   this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -98,25 +99,25 @@ namespace SpecflowBrowserStack.Resources.Features.Offers
             else
             {
                 this.ScenarioStart();
-#line 4
+#line 5
     testRunner.Given("I navigate to website on mobile.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 5
+#line 6
     testRunner.Then("I click on Sign-In link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 6
+#line 7
     testRunner.When("I type \"fav_user\" in username field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 7
+#line 8
     testRunner.When("I type \"testingisfun99\" in password field", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 8
+#line 9
     testRunner.Then("I press Log-In Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 9
+#line 10
     testRunner.Then("I click on Offers link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 10
+#line 11
     testRunner.Then("I should see Offer elements", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

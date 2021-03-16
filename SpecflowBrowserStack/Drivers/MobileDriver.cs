@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using BrowserStack;
@@ -9,7 +8,7 @@ using OpenQA.Selenium.Support.UI;
 
 namespace SpecflowBrowserStack.Drivers
 {
-	public class MobileDriver : IDisposable
+    public class MobileDriver : IDisposable
 	{
 		private readonly BrowserSeleniumDriverFactory _browserSeleniumDriverFactory;
 		private readonly Lazy<AndroidDriver<AndroidElement>> _currentWebDriverLazy;

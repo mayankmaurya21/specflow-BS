@@ -2,6 +2,7 @@ using TechTalk.SpecFlow;
 using SpecflowBrowserStack.Drivers;
 using OpenQA.Selenium;
 using Xunit;
+using OpenQA.Selenium.Support.UI;
 
 namespace SpecflowBrowserStack.Steps
 {
@@ -32,7 +33,8 @@ namespace SpecflowBrowserStack.Steps
         [Then(@"I add two products to cart")]
         public void ThenIAddTwoProductsToCart()
         {
-            System.Threading.Thread.Sleep(4000);
+            
+            _driver.Wait.Until(ExpectedConditions.ElementExists(By.XPath("(//div[text()='Add to cart'])[1]")));
             _driver.Current.FindElement(By.XPath("(//div[text()='Add to cart'])[1]")).Click();
             _driver.Current.FindElement(By.XPath("(//div[text()='Add to cart'])[1]")).Click();
 
@@ -40,15 +42,14 @@ namespace SpecflowBrowserStack.Steps
 
         [Then(@"I click on Buy Button")]
         public void ThenIClickOnBuyButton()
-        {
-            
+        {   
             _driver.Current.FindElement(By.XPath("//div[text()='Checkout']")).Click();
         }
 
         [When(@"I type ""(.*)"" in firstNameInput input")]
         public void WhenITypeInFirstNameInputInput(string firstName)
         {
-            System.Threading.Thread.Sleep(4000);
+            _driver.Wait.Until(ExpectedConditions.ElementExists(By.Id("firstNameInput")));
             _driver.Current.FindElement(By.Id("firstNameInput")).SendKeys(firstName);
         }
 
@@ -76,26 +77,25 @@ namespace SpecflowBrowserStack.Steps
             _driver.Current.FindElement(By.Id("postCodeInput")).SendKeys(postalCode.ToString());
         }
 
-
         [Then(@"I click on Checkout Button")]
         public void ThenIClickOnCheckoutButton()
         { 
-          _driver.Current.FindElement(By.Id("checkout-shipping-continue")).Click();
-            System.Threading.Thread.Sleep(4000);
-            _driver.Current.FindElement(By.XPath("//button[text()='Continue Shopping »']")).Click();
+           _driver.Current.FindElement(By.Id("checkout-shipping-continue")).Click();
+           _driver.Wait.Until(ExpectedConditions.ElementExists(By.XPath("//button[text()='Continue Shopping »']")));
+           _driver.Current.FindElement(By.XPath("//button[text()='Continue Shopping »']")).Click();
         }
 
         [Then(@"I click on ""(.*)"" link")]
         public void ThenIClickOnLink(string orders)
         {
-            System.Threading.Thread.Sleep(4000);
+            _driver.Wait.Until(ExpectedConditions.ElementExists(By.Id("orders")));
             _driver.Current.FindElement(By.Id("orders")).Click();
         }
 
         [Then(@"I should see elements in list")]
         public void ThenIShouldSeeElementsInList()
         {
-            System.Threading.Thread.Sleep(4000);
+            _driver.Wait.Until(ExpectedConditions.ElementExists(By.XPath("(//span[@class='a-color-secondary label' ])[1]")));
             string orderPlaced = _driver.Current.FindElement(By.XPath("(//span[@class='a-color-secondary label' ])[1]")).Text;
             bool result =FluentAssertions.CustomAssertionAttribute.Equals("Order placed", orderPlaced);
             if (results)

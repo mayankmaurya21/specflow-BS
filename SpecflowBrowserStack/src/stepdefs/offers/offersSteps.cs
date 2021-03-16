@@ -3,6 +3,7 @@ using SpecflowBrowserStack.Drivers;
 using OpenQA.Selenium;
 using System;
 using OpenQA.Selenium.Appium.Android;
+using OpenQA.Selenium.Support.UI;
 
 namespace SpecflowBrowserStack.Steps
 {
@@ -15,7 +16,6 @@ namespace SpecflowBrowserStack.Steps
 		public offersSteps(MobileDriver driver)
 		{
 			_driver = driver;
-
 		}
 		[Given(@"I navigate to website on mobile\.")]
 		public void GivenINavigateToWebsiteOnMobile_()
@@ -27,12 +27,12 @@ namespace SpecflowBrowserStack.Steps
 		public void ThenIClickOnSign_InLink()
 		{
 			_driver.Current.Value.FindElement(By.Id("signin")).Click();
-			System.Threading.Thread.Sleep(4000);
 		}
 
 		[When(@"I type ""(.*)"" in username field")]
 		public void WhenITypeInUsernameField(string username)
 		{
+			_driver.Wait.Until(ExpectedConditions.ElementExists(By.Id("react-select-2-input")));
 			_driver.Current.Value.FindElement(By.Id("react-select-2-input")).SendKeys(username + "\n");
 		}
 
@@ -49,13 +49,11 @@ namespace SpecflowBrowserStack.Steps
 			_driver.Current.Value.FindElement(By.Id("login-btn")).Click();
 		}
 
-
 		[Then(@"I click on Offers link")]
 		public void ThenIClickOnOffersLink()
-		{ 
-			System.Threading.Thread.Sleep(4000);
-            _driver.Current.Value.FindElementById("offers").Click();
-			
+		{
+			_driver.Wait.Until(ExpectedConditions.ElementExists(By.Id("offers")));
+			_driver.Current.Value.FindElementById("offers").Click();
 		}
 
 		[Then(@"I should see Offer elements")]

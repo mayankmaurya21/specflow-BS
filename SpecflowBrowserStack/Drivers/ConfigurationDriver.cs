@@ -1,13 +1,11 @@
 using System;
 using System.Collections.Generic;
-using System.Collections.Specialized;
 using System.IO;
 using Microsoft.Extensions.Configuration;
-using Newtonsoft.Json.Linq;
 
 namespace SpecflowBrowserStack.Drivers
 {
-	public class ConfigurationDriver
+    public class ConfigurationDriver
 	{
 		private const string SeleniumBaseUrlConfigFieldName = "host";
 		private readonly Lazy<IConfiguration> _configurationLazy;

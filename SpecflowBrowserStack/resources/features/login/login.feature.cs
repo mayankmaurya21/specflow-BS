@@ -19,13 +19,15 @@ namespace SpecflowBrowserStack.Resources.Features.Login
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.6.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("Login Feature", SourceFile="resources\\features\\login\\login.feature", SourceLine=0)]
+    [TechTalk.SpecRun.FeatureAttribute("Login Feature", new string[] {
+            "Single"}, SourceFile="resources\\features\\login\\login.feature", SourceLine=1)]
     public partial class LoginFeatureFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
-        private string[] _featureTags = ((string[])(null));
+        private string[] _featureTags = new string[] {
+                "Single"};
         
 #line 1 "login.feature"
 #line hidden
@@ -34,7 +36,8 @@ namespace SpecflowBrowserStack.Resources.Features.Login
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "resources/features/login", "Login Feature", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "resources/features/login", "Login Feature", null, ProgrammingLanguage.CSharp, new string[] {
+                        "Single"});
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -72,18 +75,12 @@ namespace SpecflowBrowserStack.Resources.Features.Login
         
         public virtual void LoginAsUsername(string username, string password, string[] exampleTags)
         {
-            string[] @__tags = new string[] {
-                    "Single"};
-            if ((exampleTags != null))
-            {
-                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
-            }
-            string[] tagsOfScenario = @__tags;
+            string[] tagsOfScenario = exampleTags;
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             argumentsOfScenario.Add("username", username);
             argumentsOfScenario.Add("password", password);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Login as <username>", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 5
+#line 4
   this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -103,60 +100,56 @@ namespace SpecflowBrowserStack.Resources.Features.Login
             else
             {
                 this.ScenarioStart();
-#line 6
+#line 5
     testRunner.Given("I navigate to website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 7
+#line 6
     testRunner.Then("I click on Sign In link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 8
+#line 7
     testRunner.When(string.Format("I type {0} in username", username), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 9
+#line 8
     testRunner.When(string.Format("I type {0} in password", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 10
+#line 9
     testRunner.Then("I press Log In Button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
-#line 11
+#line 10
     testRunner.Then(string.Format("I should see user {0} logged in", username), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Login as <username>, \'fav_user\'", new string[] {
-                "Single"}, SourceLine=13)]
+        [TechTalk.SpecRun.ScenarioAttribute("Login as <username>, \'fav_user\'", SourceLine=12)]
         public virtual void LoginAsUsername_Fav_User()
         {
-#line 5
+#line 4
   this.LoginAsUsername("\'fav_user\'", "\'testingisfun99\'", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Login as <username>, \'image_not_loading_user\'", new string[] {
-                "Single"}, SourceLine=13)]
+        [TechTalk.SpecRun.ScenarioAttribute("Login as <username>, \'image_not_loading_user\'", SourceLine=12)]
         public virtual void LoginAsUsername_Image_Not_Loading_User()
         {
-#line 5
+#line 4
   this.LoginAsUsername("\'image_not_loading_user\'", "\'testingisfun99\'", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Login as <username>, \'existing_orders_user\'", new string[] {
-                "Single"}, SourceLine=13)]
+        [TechTalk.SpecRun.ScenarioAttribute("Login as <username>, \'existing_orders_user\'", SourceLine=12)]
         public virtual void LoginAsUsername_Existing_Orders_User()
         {
-#line 5
+#line 4
   this.LoginAsUsername("\'existing_orders_user\'", "\'testingisfun99\'", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("Login as <username>, \'locked_user\'", new string[] {
-                "Single"}, SourceLine=13)]
+        [TechTalk.SpecRun.ScenarioAttribute("Login as <username>, \'locked_user\'", SourceLine=12)]
         public virtual void LoginAsUsername_Locked_User()
         {
-#line 5
+#line 4
   this.LoginAsUsername("\'locked_user\'", "\'testingisfun99\'", ((string[])(null)));
 #line hidden
         }

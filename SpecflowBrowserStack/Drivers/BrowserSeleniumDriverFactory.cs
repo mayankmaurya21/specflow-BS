@@ -1,26 +1,17 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
 using System.Linq;
-using System.Reflection;
-using AventStack.ExtentReports;
-using AventStack.ExtentReports.Gherkin.Model;
-using AventStack.ExtentReports.Reporter;
 using BrowserStack;
 using Microsoft.Extensions.Configuration;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
-using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Html5;
 using OpenQA.Selenium.Remote;
-using TechTalk.SpecFlow;
 using TechTalk.SpecRun;
 
 namespace SpecflowBrowserStack.Drivers
 {
-	public class BrowserSeleniumDriverFactory
+    public class BrowserSeleniumDriverFactory
 	{
         private readonly ConfigurationDriver _configurationDriver;
 		private readonly TestRunContext _testRunContext;
